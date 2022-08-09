@@ -1,0 +1,33 @@
+{
+  "slidey": {
+    "initConfig": {
+      "params": {
+        "start": "-8%",
+        "end": "8%",
+        "duration": "2000ms",
+        "ease": "ease-in-out"
+      }
+    },
+    "label": "上下浮动"
+  },
+  "opacity": {
+    "initConfig": {
+      "params": {
+        "start": "1",
+        "end": "0",
+        "duration": "1600ms",
+        "ease": "ease-in-out"
+      }
+    },
+    "label": "渐隐渐显"
+  },
+  "rotate": {
+    "initConfig": {
+      "params": {
+        "duration": "1600ms",
+        "direction": "normal"
+      }
+    },
+    "label": "旋转"
+  }
+}

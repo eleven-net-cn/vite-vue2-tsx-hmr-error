@@ -1,0 +1,35 @@
+{
+  "slide": {
+    "initConfig": {
+      "styles": {
+        "transform": "translate(0rem,0rem)"
+      }
+    },
+    "label": "位移"
+  },
+  "fade": {
+    "initConfig": {
+      "styles": {
+        "opacity": "0"
+      }
+    },
+    "label": "渐隐/显"
+  },
+  "slidefade": {
+    "initConfig": {
+      "styles": {
+        "opacity": "0",
+        "transform": "translate(0rem,0rem)"
+      }
+    },
+    "label": "渐显位移"
+  },
+  "scale": {
+    "initConfig": {
+      "styles": {
+        "transform": "scale(0)"
+      }
+    },
+    "label": "缩放"
+  }
+}

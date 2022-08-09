@@ -1,0 +1,115 @@
+{
+  "position": {
+    "exclude": ["noPosition"],
+    "bindStyle": "position"
+  },
+  "zIndex": {
+    "exclude": ["noPosition"],
+    "bindStyle": "zIndex"
+  },
+  "width": {
+    "exclude": ["noResize"],
+    "bindStyle": "width"
+  },
+  "height": {
+    "exclude": ["noResize", "noResizeHeight"],
+    "bindStyle": "height"
+  },
+  "border": {
+    "exclude": ["noBorder"],
+    "include": [{ "type": "version", "version": "2.10.37", "compare": "ge" }],
+    "bindStyle": "border"
+  },
+  "borderRadius": {
+    "exclude": ["noResize"],
+    "bindStyle": "borderRadius"
+  },
+  "top": {
+    "exclude": ["noPosition", "isRelativeBox"],
+    "bindStyle": "top"
+  },
+  "left": {
+    "exclude": ["noPosition", "isRelativeBox"],
+    "bindStyle": "left"
+  },
+  "bottom": {
+    "exclude": ["noPosition", "isRelativeBox"],
+    "bindStyle": "bottom"
+  },
+  "right": {
+    "exclude": ["noPosition", "isRelativeBox"],
+    "bindStyle": "right"
+  },
+  "opacity": {
+    "bindStyle": "opacity"
+  },
+  "marginTop": {
+    "include": ["isRelativeBox"],
+    "exclude": ["noPosition"],
+    "bindStyle": "marginTop"
+  },
+  "marginLeft": {
+    "include": ["isRelativeBox"],
+    "exclude": ["noPosition"],
+    "bindStyle": "marginLeft"
+  },
+  "marginBottom": {
+    "include": ["isRelativeBox"],
+    "exclude": ["noPosition"],
+    "bindStyle": "marginBottom"
+  },
+  "marginRight": {
+    "include": ["isRelativeBox"],
+    "exclude": ["noPosition"],
+    "bindStyle": "marginRight"
+  },
+  "alignTools": {
+    "exclude": ["noPosition"]
+  },
+  "maxWidth": {
+    "exclude": ["noResize"],
+    "bindStyle": "maxWidth"
+  },
+  "maxHeight": {
+    "exclude": ["noResize"],
+    "bindStyle": "maxHeight"
+  },
+  "minWidth": {
+    "exclude": ["noResize"],
+    "bindStyle": "minWidth"
+  },
+  "minHeight": {
+    "exclude": ["noResize"],
+    "bindStyle": "minHeight"
+  },
+  "backgroundColor": {
+    "exclude": ["noBg", { "type": "version", "version": "2.7.15", "compare": "gt" }],
+    "bindStyle": "backgroundColor"
+  },
+  "backgroundImage": {
+    "exclude": ["noBg", { "type": "version", "version": "2.7.15", "compare": "gt" }],
+    "bindStyle": "backgroundImage"
+  },
+  "backgroundSize": {
+    "exclude": ["noBg", { "type": "version", "version": "2.7.15", "compare": "gt" }],
+    "bindStyle": "backgroundSize"
+  },
+  "backgroundRepeat": {
+    "exclude": ["noBg", { "type": "version", "version": "2.7.15", "compare": "gt" }],
+    "bindStyle": "backgroundRepeat"
+  },
+  "backgroundPosition": {
+    "exclude": ["noBg", { "type": "version", "version": "2.7.15", "compare": "gt" }],
+    "bindStyle": "backgroundPosition"
+  },
+  "cursor": {
+    "bindStyle": "cursor"
+  },
+  "pointerEvents": {
+    "bindStyle": "pointerEvents"
+  },
+  "fontSize": {
+    "bindStyle": "pointerEvents",
+    "include": [{ "type": "nodeCategory", "category": "text" }]
+  }
+}

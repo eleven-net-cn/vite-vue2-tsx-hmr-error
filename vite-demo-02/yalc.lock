@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "puzzle-admin-fe": {
+      "signature": "b3c93219f0a4667c02bde477b3e0cb83",
+      "file": true
+    }
+  }
+}

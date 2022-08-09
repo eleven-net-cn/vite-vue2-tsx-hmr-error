@@ -1,0 +1,31 @@
+{
+  "search": {
+    "label": "url参数",
+    "formType": "keyval",
+    "keyLabel": "key",
+    "valLabel": "val"
+  },
+  "lang": {
+    "label": "语言",
+    "formType": "val",
+    "valLabel": "语言"
+  },
+  "gameBiz": {
+    "label": "区服",
+    "formType": "val",
+    "valLabel": "区服"
+  },
+  "bbs": {
+    "label": "在米游社"
+  },
+  "isGame": {
+    "label": "在游戏内"
+  },
+  "isSea": {
+    "label": "海外渠道"
+  },
+  "time": {
+    "label": "时间",
+    "formType": "time"
+  }
+}
