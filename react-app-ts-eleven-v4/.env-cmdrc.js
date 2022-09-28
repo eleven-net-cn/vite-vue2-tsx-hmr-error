@@ -39,7 +39,7 @@ module.exports = {
   },
   production: {
     REACT_APP_BUILD_ENV: 'production',
-    PUBLIC_URL: ``, // 尽量使用 https，避免运营商劫持资源
+    PUBLIC_URL: `http://wwww.eleven.net.cn/`, // 尽量使用 https，避免运营商劫持资源
     BUILD_PATH: 'build',
     INLINE_RUNTIME_CHUNK: false, // runtime 代码是否内嵌到 html 中
     GENERATE_SOURCEMAP: true, // 是否开启 sourcemap

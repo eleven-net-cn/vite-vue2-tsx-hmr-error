@@ -13,6 +13,7 @@ const Example: FC = () => (
     <img src={LOGO} alt="react logo" />
     <p>The react app has been created, Happy coding</p>
     <Code />
+    <div className="hello-wrapper">Hello World~</div>
   </div>
 );
 
