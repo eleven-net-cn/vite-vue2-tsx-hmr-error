@@ -1,5 +1,5 @@
 # vite-vue2-tsx-hmr-error
 
-Provide a minimal repository for:
+Provide a minimal repository for: https://github.com/vitejs/vite/issues/11008
 
-https://github.com/vitejs/vite/issues/11008
+in `HelloWorld.vue`

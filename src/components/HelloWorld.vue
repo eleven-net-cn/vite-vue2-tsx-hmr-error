@@ -23,7 +23,7 @@ export default class HelloWorld extends Vue {
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      an error occurred when changed the get property, e.g.:
+      an error occurred when changed the get property (HelloWorld.vue), e.g.:
       <p>1. changed get property "test" to "test1"</p>
       <p>2. vite hmr</p>
       <p>3. found the hmr error in the browser console</p>
