@@ -1,4 +1,0 @@
-{
-  "admin": "./lib/admin/index.js",
-  "adminLogin": "./lib/adminLogin/index.js"
-}

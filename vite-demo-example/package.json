@@ -36,5 +36,13 @@
     "vue-template-compiler": "^2.7.7",
     "vue-tsc": "^0.38.8"
   },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "semi": true,
+    "printWidth": 80,
+    "tabWidth": 2
+  },
   "license": "MIT"
 }
